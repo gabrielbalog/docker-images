@@ -1,0 +1,8 @@
+[Desktop Entry]
+Categories=Network;WebBrowser;
+Exec=<dir>/run.sh
+Icon=<dir>/favicon.png
+Name=Slack
+Terminal=false
+Type=Application
+Version=1.0

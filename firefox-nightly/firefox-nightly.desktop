@@ -1,0 +1,9 @@
+[Desktop Entry]
+Categories=Network;WebBrowser;
+Comment=Browse the World Wide Web
+Exec=<dir>/run.sh
+Icon=<dir>/favicon.ico
+Name=Firefox Nightly
+Terminal=false
+Type=Application
+Version=1.0
