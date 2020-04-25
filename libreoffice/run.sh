@@ -11,5 +11,4 @@ fi
 eval "$x11docker" ${PWD##*/} \
     --gpu \
     --home \
-    --pulseaudio \
-    --dbus
+    --pulseaudio

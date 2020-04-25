@@ -28,6 +28,12 @@ RUN wget https://steamcdn-a.akamaihd.net/client/installer/steam.deb --no-check-c
     && dpkg -i steam.deb \
     && rm steam.deb
 
+
+RUN apt-get update && apt-get install -y \
+    libfontconfig1:i386 \
+    --no-install-recommends \
+    && rm -rf /var/lib/apt/lists/*
+
 USER developer
 
-CMD /usr/bin/steam
+CMD "/usr/bin/steam"

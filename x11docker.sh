@@ -13,7 +13,7 @@ echo "
 --gpu
 --pulseaudio
 --clipboard
---share ~/Downloads
+--share $HOME/Downloads
 --home
 " > ~/.config/x11docker/preset/browser
 

@@ -2,7 +2,7 @@
 Categories=Network;WebBrowser;
 Comment=Browse the World Wide Web
 Exec=<dir>/run.sh
-Icon=<dir>/favicon.ico
+Icon=<dir>/favicon.png
 Name=Firefox DevEdition
 Terminal=false
 Type=Application
