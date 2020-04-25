@@ -8,7 +8,6 @@ if [ -z "$x11docker" ]; then
     x11docker="x11docker"
 fi
 
-eval "$x11docker" firefox \
-    --gpu \
-    --home \
-    --pulseaudio
+image=${PWD##*/}
+
+eval "$x11docker" --preset=browser $image

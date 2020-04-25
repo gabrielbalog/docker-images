@@ -1,8 +1,7 @@
 [Desktop Entry]
-Categories=Network;WebBrowser;
 Exec=<dir>/run.sh
 Icon=<dir>/favicon.ico
-Name=Firefox
+Name=APP
 Terminal=false
 Type=Application
 Version=1.0

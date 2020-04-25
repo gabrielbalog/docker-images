@@ -8,4 +8,4 @@ if [ -z "$x11docker" ]; then
     x11docker="x11docker"
 fi
 
-eval "$x11docker" --preset=ide  ${PWD##*/}
+eval "$x11docker" --preset=file ${PWD##*/}

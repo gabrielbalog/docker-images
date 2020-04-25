@@ -1,0 +1,7 @@
+[Desktop Entry]
+Exec=<dir>/run.sh
+Icon=<dir>/favicon.png
+Name=Visual Studio Code
+Terminal=false
+Type=Application
+Version=1.0
