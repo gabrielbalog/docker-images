@@ -12,5 +12,4 @@ eval "$x11docker" ${PWD##*/} \
     --gpu \
     --home \
     --pulseaudio \
-    --share /usr/lib/python3/ \
-    --share /usr/bin/python3*
+    --share $HOME
